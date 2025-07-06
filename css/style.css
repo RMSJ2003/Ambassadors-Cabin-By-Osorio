@@ -238,6 +238,8 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
   }
 }
+
+
 .popup__content {
   position: absolute;
   top: 50%;
@@ -256,6 +258,9 @@ body {
 @media only screen and (max-width: 75em) {
   .popup__content {
     display: block;
+  }
+  .popup__content {
+    transform: scale(.1);
   }
 }
 .popup__left {
