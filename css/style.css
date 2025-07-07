@@ -106,9 +106,9 @@ body {
   padding: 1.5rem;
   gap: 1rem;
 }
-@media only screen and (max-height: 650px) {
+@media only screen and (max-height: 750px) {
   .gallery {
-    margin-top: 10rem;
+    margin-top: 15rem;
   }
 }
 @media only screen and (max-width: 900px) {
@@ -288,13 +288,37 @@ body {
   display: block;
   width: 100%;
 }
+
+.highlights {
+  display: flex;
+
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 760px) {
+  .highlights {
+    flex-direction: column;
+  }
+}
+
+.badge {
+  background-color: #e6f7ec;
+  color: #2f855a;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
 .popup__text {
   font-size: 1.4rem;
   margin-bottom: 4rem;
-  -moz-column-count: 2;
+  -moz-column-count: 1;
   -moz-column-gap: 4rem;
   -moz-column-rule: 1px solid black;
-  column-count: 2;
+  column-count: 1;
   column-gap: 4rem;
   column-rule: 1px solid black;
   -moz-hyphens: auto;
