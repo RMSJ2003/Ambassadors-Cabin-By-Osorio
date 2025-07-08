@@ -116,6 +116,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 1rem;
+    margin-top: 10rem;
   }
   .gallery__item {
     grid-row: auto !important;
@@ -298,7 +299,7 @@ body {
   margin-bottom: 2rem;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 960px) {
   .highlights {
     flex-direction: column;
   }
